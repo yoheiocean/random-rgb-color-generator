@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>RGB Random Picker</title>
+  <!-- Include the Google Font Roboto Condensed -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap">
+  <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="color-box">
+      <div id="rgb-value">rgb(100, 100, 100)</div>
+      <div id="copied"></div>
+    </div>
+    <div id="statement-container">
+    <p id="statement">Press the button to pick a random color.</p>
+    </div>
+
+    <div id="button">
+    Randomize!
+    </div>
+<div class="color-container"></div>
+<div class="color-info-container">
+  <div class="color-info"></div>
+</div>
+<div id="slider-content">
+<!--
+  <div id="sliders">
+    <div id="r-value">100</div><div class="slider-box" id="r-slider-box"><div id="r-slider"></div></div>
+    <div id="g-value">100</div><div class="slider-box" id="g-slider-box"><div id="g-slider"></div></div>
+    <div id="b-value">100</div><div class="slider-box" id="b-slider-box"><div id="b-slider"></div></div>
+  </div>
+-->
+
+<div id="sliders">
+  <div class="slider-box" id="r-slider-box">
+      <span class="slider-value" id="r-value">100</span>
+      <div class="slider" id="r-slider">
+          <div class="slider-thumb" id="r-slider-thumb"></div>
+      </div>
+  </div>
+
+  <div class="slider-box" id="g-slider-box">
+      <span class="slider-value" id="g-value">100</span>
+      <div class="slider" id="g-slider">
+          <div class="slider-thumb" id="g-slider-thumb"></div>
+      </div>
+  </div>
+
+  <div class="slider-box" id="b-slider-box">
+      <span class="slider-value" id="b-value">100</span>
+      <div class="slider" id="b-slider">
+          <div class="slider-thumb" id="b-slider-thumb"></div>
+      </div>
+  </div>
+</div>
+</div>
+  <div id="preview"></div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
