@@ -178,3 +178,13 @@ margin-top: 20px;
     margin-left: 20px;
     cursor: pointer;
   }
+
+  .footer {
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+  }
+
+  .footer a {
+    color: rgb(36, 167, 217);
+  }
